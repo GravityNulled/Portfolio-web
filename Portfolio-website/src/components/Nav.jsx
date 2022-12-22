@@ -31,7 +31,7 @@ const Nav = () => {
   ];
   return (
     <nav>
-      <ul className="flex space-x-8 capitalize text-[15px]">
+      <ul className="flex space-x-5 capitalize text-[15px]">
         {navigation.map((item, index) => {
           return (
             <li key={index}>

@@ -17,10 +17,10 @@ const Header = () => {
         bg ? `bg-tertiary h-20` : `h-24`
       } flex items-center w-full z-50 fixed top-0 transition-all duration-300 text-white`}
     >
-      <div className="container mx-auto flex items-center justify-between ">
+      <div className="container mx-auto flex items-center justify-between gap-4 ">
         {/* Logo */}
         <a href="#">
-          <img src={Logo} alt="Logo" className="w-[80px]" />
+          <img src={Logo} alt="Logo" className="w-[100px]" />
         </a>
         {/* Nav */}
         <div className="hidden sm:block">
