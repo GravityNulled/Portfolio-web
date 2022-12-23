@@ -1,7 +1,9 @@
 import { useState } from "react";
+import About from "./components/About";
 import Brands from "./components/Brands";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,8 +12,10 @@ function App() {
     <div className="">
       <Header />
       <Hero />
-      <Brands/>
-      <div className="h-[2000px]"></div>
+      <Brands />
+      <About />
+      <Skills />
+      {/* <div className="h-[2000px]"></div> */}
     </div>
   );
 }

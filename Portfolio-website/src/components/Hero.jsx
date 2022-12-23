@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="flex justify-center items-center">
           {/*  Left*/}
           <div className="flex flex-col p-8 items-center text-center justify-center ">
-            <h1 className="text-lg text-accent mb-8">Hi, I am Omar</h1>
+            <h1 className="text-lg text-accent mb-8">Hi, I am Jane</h1>
             <p className="text-4xl leading-[40px]">I build & Design Software</p>
             <p className="mt-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
