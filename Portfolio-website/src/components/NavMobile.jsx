@@ -7,7 +7,6 @@ import { useState } from "react";
 
 const NavMobile = () => {
   const [open, setOpen] = useState(false);
-  console.log(open);
   const navigation = [
     {
       name: "home",
