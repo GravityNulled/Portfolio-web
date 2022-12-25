@@ -21,7 +21,7 @@ const Contact = () => {
       <div className="container mx-auto">
         <div className="flex-flex-col items-center justify-center text-center">
           <h2 className="section-title">Contact Me</h2>
-          <p>
+          <p className="pb-8">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet
             saepe reprehenderit fugit fugiat doloremque ipsam similique, dolorum
             sed! Alias, quas.
@@ -30,7 +30,7 @@ const Contact = () => {
         <div className="flex flex-col lg:flex-row gap-5 justify-around mb-8">
           {contact.map((contact, index) => {
             return (
-              <div className="flex flex-col mt-5">
+              <div key={index} className="flex flex-col mt-5">
                 <p className="text-accent mb-10">{contact.icon}</p>
                 <p className="text-white">{contact.title}</p>
                 <p>{contact.subtitle}</p>
