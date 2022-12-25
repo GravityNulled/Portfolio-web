@@ -44,7 +44,7 @@ const Skills = () => {
     },
   ];
   return (
-    <section className="bg-tertiary">
+    <section className="bg-tertiary section">
       <div className="container mx-auto min-h-[80px] flex justify-evenly items-center">
         <div className="grid grid-cols-8 md:grid-flow-row">
           {skills.map((item, index) => {

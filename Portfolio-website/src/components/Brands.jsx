@@ -29,8 +29,8 @@ const Brands = () => {
     },
   ];
   return (
-    <section className="bg-tertiary min-h-[100px]">
-      <div className="flex justify-evenly md:justify-around items-center mx-auto container flex-wrap">
+    <section className="bg-tertiary min-h-[100px] section">
+      <div className="flex justify-evenly md:justify-around items-center mx-auto container flex-col md:flex-row">
         {brands.map((item, index) => {
           return <img src={item.img} alt="/" />;
         })}
